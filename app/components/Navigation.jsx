@@ -10,8 +10,8 @@ const links = [
     route: '/about',
   },
   {
-    label: 'Products',
-    route: '/products',
+    label: 'posts',
+    route: '/posts',
   },
 ];
 export function Navigation() {

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-
+import { font } from './../font';
 const links = [
   {
     label: 'Home',

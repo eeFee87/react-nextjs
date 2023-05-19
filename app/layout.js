@@ -1,8 +1,8 @@
 import { Navigation } from './components/Navigation';
 import './globals.css';
-import { Inter } from 'next/font/google';
-
-const inter = Inter({ subsets: ['latin'] });
+import { font } from './font';
+//import { Inter } from 'next/font/google';
+//const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Create Next App',
@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>My first app with Next 13</title>
       </head>
-      <body className={inter.className}>
+      <body className={font.className}>
         <Navigation />
         {children}
       </body>
